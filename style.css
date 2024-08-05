@@ -1,0 +1,192 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar{
+    height: 74px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    background-image: url("logo.png");
+    background-size: cover;
+    height: 33px;
+    width: 115px;
+}
+.nav-logo:hover{
+    cursor: pointer;
+}
+
+.nav-item{
+    height: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.nav-item a{
+    text-decoration: none;
+    color:#000000;
+    font-size: 14px;
+    padding: 0px 10px;
+    font-weight: 700px;
+    height: 13.6px;
+    margin-left: 10px;
+
+}
+
+.nav-search{
+    height: 18px;
+}
+.nav-search i{
+    font-size: 14px;
+    font-weight: 700px;
+    margin: 2px 0px 0px;
+    height: 19px;
+    margin-left:10px;
+}
+
+.nav-search:hover{
+    cursor: pointer;
+}
+/* section */
+.section{
+    height: 650px;
+    background-image: url("main2.webp");
+    background-size: cover;
+}
+
+/* card-section */
+.card-section{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.box{
+    width: 320px;
+    height: 470px;
+    background-size: cover;
+}
+.box img{
+    width: 320px;
+    height: 470px;
+}
+
+/* section2 */
+.section2{
+    height: 763px;
+}
+.newin1{
+    background-image: url("newin.webp");
+    height: 763px;
+    background-size: cover;
+}
+/* section3 */
+.section3{
+    height:763px ;
+}
+.bestseller{
+    height:763px ;
+    background-image: url("bestseller.webp");
+    background-size: cover;
+}
+section4{
+    height: 764px;
+
+}
+hr{
+    font-weight: 600;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* footer section 1 */
+.footer-section-1{
+    display:flex;
+    justify-content: space-evenly;
+    height: 150px;
+    padding-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: #000000;    
+}
+ul li{
+    list-style: none;
+}
+.footer-1 ,.footer-2 ,.footer-3 ,.footer-4{
+    height: 150px;
+}
+
+h5{
+    margin: 30px 0px 10px;
+    font-size: 22px;
+    height: 18px;
+    margin: 20px 0px 20px;
+}
+.footer-p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.footer-section-2{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+.fb{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+
+}
+.fb i{
+    font-size: 50px;
+    height: 60px;
+    width: 50px;
+    padding-left: 20px;
+}
+.footer-section-2 i{
+    height: 50px;
+    margin-left: 0px;
+}
+
+.copy{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Copyright{
+    font-size: 20px;
+    margin-top:40px;
+    height: 18.85px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+/* Hover */
+
+.nav-logo:hover , .newin1:hover ,.bestseller:hover ,.box:hover,.section:hover{
+    animation: mybox 2s ease-in infinite;
+    cursor: pointer;
+}
+
+/* Animation */
+@keyframes mybox {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
